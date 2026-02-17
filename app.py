@@ -1,12 +1,12 @@
 import streamlit as st
 #===========Books===============
-books = ["The Seven Husbands of Evelyn Hugo"
-        "To Kill a Mockingbird"
-        "The Hunger Games"
-        "The Alchemist"
-        "The Fault in Our Stars"
-        "The Midnight Library"
-        "The Book Thief"
+books = ["The Seven Husbands of Evelyn Hugo",
+        "To Kill a Mockingbird",
+        "The Hunger Games",
+        "The Alchemist",
+        "The Fault in Our Stars",
+        "The Midnight Library",
+        "The Book Thief",
         ]
 #============APP=============
 st.title("Book library📚")
