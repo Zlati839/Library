@@ -16,6 +16,6 @@ if st.button("Check"):
   if input.strip == "":
      st.warning("Input a book")
   elif input in books:
-    st.success("The book is in the database",input)
+    st.success("The book is in the database")
   else:
-    st.warning("The book " ,input,"is not in the data base ")
+    st.error("The book is not in the data base ")
