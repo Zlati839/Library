@@ -14,7 +14,7 @@ st.write("Enter a titl you want to search for")
 input = st.text_input("Book ?")
 if st.button("Check"):
   if input.strip == "":
-     st.warning("Input a book"):
+     st.warning("Input a book")
   elif input in books:
     st.success("The book is in the database",input)
   else:
