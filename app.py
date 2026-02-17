@@ -1,7 +1,7 @@
 
 import streamlit as st
 #===========Books===============
-if books not in st.session_state:
+if "books" not in st.session_state:
     st.session_state.books = [
         "The Seven Husbands of Evelyn Hugo",
         "To Kill a Mockingbird",
