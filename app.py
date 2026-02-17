@@ -1,7 +1,8 @@
 
 import streamlit as st
 #===========Books===============
-books = [
+if 'books' not in st.session_state
+st.session_state.books = [
         "The Seven Husbands of Evelyn Hugo",
         "To Kill a Mockingbird",
         "The Hunger Games",
@@ -13,7 +14,7 @@ books = [
 st.title("Book library📚")
 add_book = st.text_input("Add a book")
 if st.button("ADD"):
-   books.append(add_book) 
+   t.session_state['books'].append(add_book) 
    st.write(books)
 #============APP=============
 st.write("Enter a titl you want to search for")
