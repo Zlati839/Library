@@ -14,7 +14,7 @@ if 'books' not in st.session_state:
 st.title("Book library📚")
 add_book = st.text_input("Add a book")
 if st.button("ADD"):
-   t.session_state['books'].append(add_book) 
+   st.session_state['books'].append(add_book) 
    st.write(books)
 #============APP=============
 st.write("Enter a titl you want to search for")
