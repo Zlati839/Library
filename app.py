@@ -1,16 +1,14 @@
 
 import streamlit as st
 #===========Books===============
-if "books" not in st.session_state:
-    st.session_state.books = [
+books = [
         "The Seven Husbands of Evelyn Hugo",
         "To Kill a Mockingbird",
         "The Hunger Games",
         "The Alchemist",
         "The Fault in Our Stars",
         "The Midnight Library",
-        "The Book Thief",
-    ]
+        "The Book Thief",]
 #===============ADD=============
 st.title("Book library📚")
 add_book = st.text_input("Add a book")
