@@ -1,3 +1,4 @@
+
 import streamlit as st
 #===========Books===============
 books = ["The Seven Husbands of Evelyn Hugo",
@@ -22,4 +23,5 @@ if st.button("Check"):
 #===============ADD=============
 add_book = st.text_input("Add a book")
 if st.button("ADD"):
-   books.append(add_book)
+   books.append(add_book) 
+   st.write(books)
