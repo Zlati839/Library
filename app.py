@@ -9,6 +9,11 @@ books = ["The Seven Husbands of Evelyn Hugo",
         "The Midnight Library",
         "The Book Thief",
         ]
+#===============ADD=============
+add_book = st.text_input("Add a book")
+if st.button("ADD"):
+   books.append(add_book) 
+   st.write(books)
 #============APP=============
 st.title("Book library📚")
 st.write("Enter a titl you want to search for")
@@ -20,8 +25,4 @@ if st.button("Check"):
     st.success("The book is in the database")
   else:
     st.error("The book is not in the data base ")
-#===============ADD=============
-add_book = st.text_input("Add a book")
-if st.button("ADD"):
-   books.append(add_book) 
-   st.write(books)
+
